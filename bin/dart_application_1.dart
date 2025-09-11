@@ -1,7 +1,5 @@
-import 'dart:io';
-
 void main() {
-  stdout.write('Enter your name: ');
-  String? name = stdin.readLineSync();
-  print('Hello, $name!');
+  int num1 = 10, num2 = 20;
+  int sum = num1 + num2;
+  print("The sum of $num1 and $num2 is $sum");
 }
