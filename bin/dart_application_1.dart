@@ -1,7 +1,8 @@
 import 'dart:io';
 
 void main() {
-  int num1 = 10, num2 = 20;
-  int sum = num1 + num2;
-  print("The sum of $num1 and $num2 is $sum");
+  int num = 10;
+  int num2 = 20;
+  int sum = num + num2;
+  print("The sum of $num and $num2 is= $sum");
 }

@@ -1,17 +1,23 @@
-if (year >= 2025) {
-  print('This is 25th century');
-} else if (year >= 2021) {
-  print('24th century');
-}
+void main() {
+  int year = 2020;
 
-for (final object in flybyObjects) {
-  print(object);
-}
+  if (year >= 2025) {
+    print('This is 25th century');
+  } else if (year >= 2021) {
+    print('24th century');
+  }
 
-for (int month = 1; month <= 12; month++) {
-  print(month);
-}
+  final flybyObjects = ['Jupiter', 'Mars', 'Venus'];
 
-while (year < 2018) {
-  year += 1;
+  for (final object in flybyObjects) {
+    print(object);
+  }
+
+  for (int month = 1; month <= 12; month++) {
+    print(month);
+  }
+
+  while (year < 2018) {
+    year += 1;
+  }
 }
