@@ -5,4 +5,3 @@ void main(){
   int num1 = int.parse(stdin.readLineSync()!)
 }
 
-z
