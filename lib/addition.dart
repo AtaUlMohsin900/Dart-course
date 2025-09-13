@@ -5,5 +5,5 @@ void main() {
   int num1 = int.parse(stdin.readLineSync()!);
   stdout.write("Enter the second value =");
   int num2 = int.parse(stdin.readLineSync()!);
-  print(num1+num2);
+  print(num1 + num2);
 }
