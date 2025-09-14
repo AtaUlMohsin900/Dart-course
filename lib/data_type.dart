@@ -9,11 +9,11 @@ import 'dart:io';
 
 // double
 
-void main(){
-    print('Enter your flout value1 =');
-    double  value1 = double.parse(stdin.readLineSync()!);
-    print('Enter your flout value2 =');
-    double value2 = double.parse(stdin.readLineSync()!);
-    print(value1 + value2);
-
+void main() {
+  print('Enter your flout value1 =');
+  double value1 = double.parse(stdin.readLineSync()!);
+  print('Enter your flout value2 =');
+  double value2 = double.parse(stdin.readLineSync()!);
+  print(value1 + value2);
 }
+s
