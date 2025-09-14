@@ -16,4 +16,3 @@ void main() {
   double value2 = double.parse(stdin.readLineSync()!);
   print(value1 + value2);
 }
-s
