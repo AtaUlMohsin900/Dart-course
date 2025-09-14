@@ -8,12 +8,23 @@ import 'dart:io';
 // }
 
 // double
+// void main(){
+//     print('Enter your flout value1 =');
+//     double  value1 = double.parse(stdin.readLineSync()!);
+//     print('Enter your flout value2 =');
+//     double value2 = double.parse(stdin.readLineSync()!);
+//     print(value1 + value2);
 
+// }
+
+// boolean
 void main(){
-    print('Enter your flout value1 =');
-    double  value1 = double.parse(stdin.readLineSync()!);
-    print('Enter your flout value2 =');
-    double value2 = double.parse(stdin.readLineSync()!);
-    print(value1 + value2);
+        bool age = 25;
+        if(age >=25){
+            print(age);
+    
+        }else{
+            print(false);
+        }
 
 }
