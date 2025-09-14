@@ -3,5 +3,5 @@ import 'dart:io';
 void main() {
   print('Enter your Name =');
   String name = stdin.readLineSync()!;
-  print(name);
+  print('your name is = $name');
 }
