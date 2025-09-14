@@ -21,10 +21,10 @@ import 'dart:io';
 void main(){
         bool age = 25;
         if(age >=25){
-            print(age);
+            print('you are enrolled for new course');
     
         }else{
-            print(false);
+            print('Sorry try again!');
         }
 
 }
