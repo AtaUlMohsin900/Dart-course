@@ -43,3 +43,18 @@ String message = (temperature > 30) ? "Hot" :
                  (temperature > 20) ? "Warm" :
                  (temperature > 10) ? "Cool" : "Cold";
 Ternary operators are a powerful tool for writing concise Dart code, but always prioritize readability over brevity!
+
+// Turnery Operators
+
+void main(){
+stdout.write("  Enter the first value =");
+int num1 = int.parse(stdin.readLineSync()!);
+if(num1% == 0){
+print("This is an Even Number");
+}
+else{
+print("This is an Odd Number");
+}
+
+
+}
