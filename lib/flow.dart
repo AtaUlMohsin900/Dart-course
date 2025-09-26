@@ -1,5 +1,6 @@
 void main() {
-  int year = 2020;
+  int year = int.parse(stdin.readLineSync()!);
+  
 
   if (year >= 2025) {
     print('This is 25th century');
