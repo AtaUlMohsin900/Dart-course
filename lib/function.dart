@@ -2,3 +2,7 @@
 // (DRY) Don’t Repeat Yourself is the main objective of the Dart Functions.
 
 
+
+void printName(){
+  print("My name is Raj Sharma. I am from function.");
+}
