@@ -33,3 +33,19 @@ void main() {
   double rate = 3;
   calculateInterest(principal, rate, time);
 }
+
+// Name should start with lower-case, and every second word’s first letter will be upper-case like num1, fullName, isMarried, etc. 
+// Technically, this naming convention is called lowerCamelCase.
+
+// Here num1 and num2 are parameters
+void add(int num1, int num2){
+  int sum;
+  sum = num1 + num2;
+   
+  print("The sum is $sum");
+}
+
+void main(){
+// Here 10 and 20 are arguments
+  add(10, 20);
+}
