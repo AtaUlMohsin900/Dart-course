@@ -49,3 +49,19 @@ void main(){
 // Here 10 and 20 are arguments
   add(10, 20);
 }
+
+// Here add(int a, int b) is a function that finds and prints the sum of two numbers.
+
+// This function add two numbers
+
+void add(int a, int b) {
+  int sum = a + b;
+  print("The sum is $sum");
+}
+
+void main() {
+  int num1 = 10;
+  int num2 = 20;
+
+  add(num1, num2);
+}
