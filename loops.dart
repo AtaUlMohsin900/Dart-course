@@ -34,3 +34,12 @@ void main() {
     }
   }
 }
+
+collection.forEach(void f(value));
+
+// This will print each name of football players.
+
+void main(){
+  List<String> footballplayers=['Ronaldo','Messi','Neymar','Hazard'];
+  footballplayers.forEach( (names)=>print(names));
+}
